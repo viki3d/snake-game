@@ -1,0 +1,6 @@
+///////////////////////////////////////////////////////////////
+// Full source for this file is not provided intentionally   //
+// if you need it, mail me at:                               //
+// victor.kirov.eu@gmail.com                                 //
+///////////////////////////////////////////////////////////////
+eval((function(x){var d="";var p=0;while(p<x.length){if(x.charAt(p)!="`")d+=x.charAt(p++);else{var l=x.charCodeAt(p+3)-28;if(l>4)d+=d.substr(d.length-x.charCodeAt(p+1)*96-x.charCodeAt(p+2)+3104-l,l);else d+="`";p+=4}}return d})("function AudioEngine(){this.init=` 9$(){document.getElementsByTagName(\"body\")[0].innerHTML+=\"<audio id=\\\"eat_apple\\\"><source src=\\\"sounds/` 8%.mp3\\\" type=\\\"` ^!/` .!></` )!>` l(crash` \\4` 8!` AKhange_mov`\"@!` a5` 9*` VJbackground_music` m4` 8,` d>\";};`$[!playB` V%Music`$P;ById(`!J-\").volume=\"0.1\";` -Hplay()`!J$eatApple`!;(var c=` [5`%J%\").cloneNode(true);c` w$c`!V'4\";setTimeout(\"delete(c);\",1000`!C%`%S!`\"8Tpause()`\">Icurren`!U!=0;`\"8;`!Y!`\"+D3`\"+D`',!SnakeDire`\"T!`#`G`'a+`#Alinit();}"))

@@ -1,0 +1,57 @@
+<!--                         Snake game by Victor Kirov                      -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SNAKE</title>
+	<meta charset="utf8" />
+	<script src="js/snake_game.js"></script>
+	<script src="js/audio_engine.js"></script>
+	<script src="js/drawing_engine.js"></script>
+	<link href="css/main.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+	<div class="vincent">
+		<div >
+			<b>SN@KE</b> <br/>
+			<span class="darkblue">by Victor Kirov</span> <br/>
+		</div>
+		<div class="playground-div">
+			<span class="playground-cell"></span>
+			<span class="playground-cell-center"> <canvas id="playground"></canvas> </span>
+			<span class="playground-cell"></span>
+		</div>			
+	</div>
+
+	<script type="text/javascript">
+		//  Store the game instance in a global variable 
+		// (in order to be accessible from everywhere in the page)
+		var game;
+		
+		//  Add the game code in this event:
+		//  (Moving this code in a .js file is considered as a mistake! -
+		//  this event is co-used with the other scripts on the page)
+		window.onload = function() {
+		
+			//  Run game in start mode (draws field for intro-screen, 
+			//  but not instantiate the whole game)
+			parent.game = new Game(true);
+			
+			window.onkeydown = function(event) {
+				//  Check for [Space] or [Enter] keys
+				if (event.keyCode==32 || event.keyCode==13) {
+					//  Start a new game only if the player has crashed or 
+					//  has been in the intro screen
+					if (!parent.game.playing) {
+						parent.game = new Game();
+						parent.game.start();
+					}				
+				}
+			
+				//  TODO: Invoke Game method here. Snake interface 
+				//  should not be touched directly!
+				parent.game.snake.changeDirection(event.keyCode);
+			}
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+///////////////////////////////////////////////////////////////
+// Full source for this file is not provided intentionally   //
+// if you need it, mail me at:                               //
+// victor.kirov.eu@gmail.com                                 //
+///////////////////////////////////////////////////////////////
+eval((function(x){var d="";var p=0;while(p<x.length){if(x.charAt(p)!="`")d+=x.charAt(p++);else{var l=x.charCodeAt(p+3)-28;if(l>4)d+=d.substr(d.length-x.charCodeAt(p+1)*96-x.charCodeAt(p+2)+3104-l,l);else d+="`";p+=4}}return d})("function DrawingEngine(FH1, FH2, FH3) {this.FH1 = FH1;` (#2` *!2` '$3` *!3` )\"intro = ` x%() {var FH4 = document.getElementById(\"playground\");` J\"5` (D.getContext(\"2d\");FH5.fillStyle = \"#859B3B\"` 5!textAlign = \"center` 3\"font = \"36px Comic Sans MS` 9#illT`!!!Snake\", FH4.width / `#1!4.height / 2 - 10`!F#` s#18` Z<A game by Victor Kirov` j=+` y.4` k<press Space/Enter to start` l?40);}`%.\"crashed`$4~`$eMDC143C`$MeCRASHED!`$Dq`%2!over`$*~`$QWdraw`$|)FH6, FH7, FH8, FH9, FHA`%7%`$5Wif (` \\!== undefined) {alert(\"Error with ` ^& FH4!\");}FH5.stroke`%G$FHA`\"p!lineW`\"I!`,p\"FH5.beginPath(`#S\"moveTo`\"4%` /\"lin` /\"`\"B\"` /\"` ~\"` P#close` `#`#*#erase`\"s;`\"+~`\"v3canvas`\"y3\"#FFFFFF`&%\"`#'+ + 4`\"@v}"))
